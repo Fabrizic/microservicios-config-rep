@@ -1,0 +1,18 @@
+server:
+  port: 8270
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-ctb25m8gph6c73etl1u0-a.oregon-postgres.render.com:5432/microservicios_mhkr
+    username: microservicio
+    password: Npz77kfhZXia0uW5Yh1bo3iYrGprOQLd
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    
